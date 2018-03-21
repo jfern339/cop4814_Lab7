@@ -15,6 +15,7 @@ namespace GamesScoresLibrary
         public int Team2score { get; set; }
 
         public Games() { }
+        //I changed this in the Master file
 
         public Games(string Team1, int Team1score, string Team2, int Team2score)
         {
