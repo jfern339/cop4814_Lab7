@@ -54,7 +54,7 @@ namespace GamesScoresLibrary
         {
             try
             {
-                gamesList = new List<Games>();
+                gamesList = new List<games>();
                 StreamReader sr = new StreamReader(FilePath);
                 serial = new XmlSerializer(gamesList.GetType());
                 gamesList = (List<Games>)serial.Deserialize(sr);
