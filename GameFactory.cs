@@ -15,7 +15,7 @@ namespace GamesScoresLibrary
         StreamWriter sw;
         XmlSerializer serial;
         List<Games> gamesList;
-        const string FilePath = @"..\..\Games.xml";
+        const string FilePath = @"..\..\games.xml";
 
         public void CreateGameList()
         {
