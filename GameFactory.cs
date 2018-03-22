@@ -68,6 +68,6 @@ namespace GamesScoresLibrary
                 return null;
             }
         }
-    }
-    //This is the Games Class
+    
+    //This is the GamesFactory Class
  }
